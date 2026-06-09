@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Packaging Lambda Function"
+
+artifacts:
+  files:
+    - src/lambda_function.py
